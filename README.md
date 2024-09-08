@@ -1,14 +1,4 @@
-![Thumbnail](https://i.ytimg.com/vi/xNaGYGDZ2JU/maxresdefault.jpg)
 
-# Welcome to Obscura Pro Camera Clone
-
-This project is built using [react-native-vision-camera](https://github.com/mateusz1913/react-native-vision-camera), [Expo](https://expo.dev) and ❤️ by [Beto Moedano](https://codewithbeto.dev).
-
-**Live demo at:** [x.com/betomoedano/status/1825178467689755069](https://x.com/betomoedano/status/1825178467689755069)
-
-**YouTube, Source Code, Dependencies and More at:** [codewithbeto.dev/projects/obscura-clone](https://codewithbeto.dev/projects/obscura-clone)
-
-## Get started
 
 1. Install dependencies with pnpm
 
