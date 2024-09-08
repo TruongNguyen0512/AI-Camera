@@ -41,32 +41,43 @@ cd ..
 Make sure you have CocoaPods installed. If not, you can install it using:
 sudo gem install cocoapods
 
-## Running the App on Android
+## **Running the App on Android**
+
 ### 1. Enable USB Debugging on Your Android Device
+
 To enable USB Debugging on your Android device:
-- Go to Settings > About phone.
-- Tap Build number seven times to unlock Developer options.
-- Go back to Settings and select Developer options.
-Enable USB Debugging.
-### 2. Build the Project
+
+- Go to **Settings > About phone**.
+- Tap **Build number** seven times to unlock **Developer options**.
+- Go back to **Settings** and select **Developer options**.
+- Enable **USB Debugging**.
+
+### 2. Prebuild the Project
+
+Prebuild the native project files for Android & Ios:
+
+```sh
+npx expo prebuild
+```
+### 3. Build the Project
 Navigate to the android folder and run the Gradle command to build the app:
 ```sh 
 cd android
 ./gradlew build
 ```
-### 3. Install the App on an Android Device
+### 4. Install the App on an Android Device
 Use adb to install the built APK file onto your Android device:
 ```sh 
 adb install -r /path/to/your/app.apk
 Check the connected Android devices:
 adb devices
 ```
-### 4. Configure Connection for Expo
+### 5. Configure Connection for Expo
 Run the following command to set up a reverse connection between your device and computer:
 ```sh 
 adb reverse tcp:8081 tcp:8081
 ```
-### 5. Start Expo
+### 6. Start Expo
 ## Run the app with Expo:
 ```sh 
 npx expo start
